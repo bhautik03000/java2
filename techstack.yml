@@ -1,7 +1,8 @@
 repo_name: bhautik03000/java2
 report_id: bcd26e8727c42ac96a9193dada6f3440
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T19:28:30+00:00'
+timestamp: '2024-01-04T15:12:27+00:00'
 requested_by: marcin-cebo
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/bhautik03000/java2
   detection_source: Repo Metadata
 - name: Kotlin
   description: Statically typed Programming Language targeting JVM and JavaScript
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/bhautik03000/java2
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/bhautik03000/java2
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -43,7 +47,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/run-validations.yml"
+  detection_source_url: https://github.com/bhautik03000/java2/blob/master/.github/workflows/commands-handler.yml
+  detection_source: ".github/workflows/commands-handler.yml"
   last_updated_by: Serhii Mamontov
   last_updated_on: 2023-01-03 07:23:21.000000000 Z
 - name: Gradle
@@ -55,7 +60,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
-  detection_source: gradlew
+  detection_source_url: https://github.com/bhautik03000/java2/blob/master/build.gradle
+  detection_source: build.gradle
   last_updated_by: marcin-cebo
   last_updated_on: 2022-12-06 09:26:50.000000000 Z
 - name: Logback
@@ -66,6 +72,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/bhautik03000/java2/blob/master/src/test/resources/logback.xml
   detection_source: src/test/resources/logback.xml
   last_updated_by: Max Presman
   last_updated_on: 2016-04-10 07:04:50.000000000 Z
@@ -78,6 +85,7 @@ tools:
   category: Analytics
   sub_category: Business Intelligence
   image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/bhautik03000/java2/blob/master/build.gradle
   detection_source: build.gradle
   last_updated_by: marcin-cebo
   last_updated_on: 2023-03-06 11:29:49.000000000 Z
